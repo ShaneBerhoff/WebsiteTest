@@ -1,50 +1,60 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Didn't think you would see this</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<header>
-		<h1>My Personal Website</h1>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section>
-			<h2>About Me</h2>
-			<p>Introduce yourself here.</p>
-		</section>
-		<section>
-			<h2>Blog</h2>
-			<p>List your blog posts here.</p>
-		</section>
-		<section>
-			<h2>Contact Me</h2>
-			<form>
-				<label for="name">Name:</label>
-				<input type="text" id="name" name="name"><br>
-
-				<label for="email">Email:</label>
-				<input type="email" id="email" name="email"><br>
-
-				<label for="message">Message:</label>
-				<textarea id="message" name="message"></textarea><br>
-
-				<input type="submit" value="Send">
-			</form>
-		</section>
-	</main>
-	<footer>
-		<p>&copy; 2023 My Personal Website</p>
-	</footer>
-</body>
+  <head>
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h1>Welcome to my personal website</h1>
+        <p>This is a simple website to showcase my work and interests.</p>
+      </section>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>My name is John Doe and I'm a web developer based in New York. I specialize in creating responsive websites using HTML, CSS, and JavaScript.</p>
+      </section>
+      <section id="blog">
+        <h2>My Blog</h2>
+        <div class="blog-post">
+          <h3>Blog Post 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit mauris eu nunc euismod, a blandit enim faucibus. Nam aliquet lectus elit, ac sagittis quam hendrerit eu.</p>
+        </div>
+        <div class="blog-post">
+          <h3>Blog Post 2</h3>
+          <p>Donec cursus augue sed quam ultricies mollis. Phasellus vehicula nisl eget magna finibus, nec sollicitudin ipsum vehicula.</p>
+        </div>
+        <div class="blog-post">
+          <h3>Blog Post 3</h3>
+          <p>Mauris pharetra velit et gravida sagittis. Nam id elit vel nulla commodo fringilla. Sed eget bibendum eros, auctor hendrerit massa. </p>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <input type="submit" value="Send">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 My Personal Website</p>
+    </footer>
+  </body>
 </html>
