@@ -57,6 +57,7 @@
     /* Style the main element */
     main {
     flex: 1;
+    scroll-margin-top: 4rem;
     margin-top: 4rem;
     padding: 1rem;
     }
