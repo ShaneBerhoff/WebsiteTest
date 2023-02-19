@@ -54,13 +54,10 @@
     text-decoration: underline;
     }
     
-    /*style nav snaping*/
-    h2{ position:relative; }
-    h2 span{ position:absolute; top:-200px;}
-
     /* Style the main element */
     main {
     flex: 1;
+    scroll-margin-top: 4rem;
     margin-top: 4rem;
     padding: 1rem;
     }
